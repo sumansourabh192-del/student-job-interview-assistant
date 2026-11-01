@@ -55,3 +55,11 @@ GitHub: https://github.com/sumansourabh192-del
 
 ---
 Created to help students organize their placement preparation journey.
+
+## Screenshots
+
+### Job Application Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### DSA Progress Tracker
+![DSA Tracker](screenshots/dsa-tracker.png)
