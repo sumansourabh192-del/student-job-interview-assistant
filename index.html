@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Job & Interview Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Student Job & Interview Assistant</h1>
+
+    <input type="text" id="company" placeholder="Company Name">
+
+    <input type="text" id="role" placeholder="Role">
+
+    <select id="status">
+        <option>Applied</option>
+        <option>OA</option>
+        <option>Interview</option>
+        <option>Rejected</option>
+        <option>Selected</option>
+    </select>
+
+    <button onclick="addJob()">Add Job</button>
+
+    <h3>Total Applications: <span id="totalJobs">0</span></h3>
+
+    <h2>Applied Jobs</h2>
+
+    <ul id="jobList"></ul>
+
+    <h2>DSA Progress Tracker</h2>
+
+    <div class="dsa-box">
+        <label><input type="checkbox"> Two Sum</label><br>
+        <label><input type="checkbox"> Plus One</label><br>
+        <label><input type="checkbox"> Remove Element</label><br>
+        <label><input type="checkbox"> Merge Sorted Array</label><br>
+        <label><input type="checkbox"> Binary Search</label><br>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
